@@ -1,7 +1,7 @@
 # LLMBox - Making AI Conversations Limitless
 
 <div align="center">
-  <img src="assets/llmbox-logo.png" alt="LLMBox Logo" width="200"/>
+  <img src="assets/llmbox-logo.png" alt="LLMBox Logo" width="400"/>
   
   [![GitHub license](https://img.shields.io/github/license/itsbariscan/llmbox)](https://github.com/itsbariscan/llmbox/blob/main/LICENSE)
   [![Twitter Follow](https://img.shields.io/twitter/follow/bcsayin?style=social)](https://twitter.com/bcsayin)
@@ -221,7 +221,7 @@ As a growth enthusiast rather than a professional developer, I especially welcom
 
 ## 👤 About Me
 
-Hi, I'm Baris Can Sayin, an SEO & Organic Growth Enthusiast focused on growth marketing strategies, automation, and coding. My expertise lies in optimizing digital presence and driving growth through data-driven approaches.
+Hi, I'm Baris Can, an SEO & Organic Growth Enthusiast focused on growth marketing strategies, automation, and coding. My expertise lies in optimizing digital presence and driving growth through data-driven approaches.
 
 ### 👀 I'm interested in:
 - SEO and Growth Marketing
@@ -242,8 +242,6 @@ Hi, I'm Baris Can Sayin, an SEO & Organic Growth Enthusiast focused on growth ma
 I'm grateful to:
 - Anthropic for Claude API
 - Open source community
-- Project contributors
-- Development advisors
 
 ## 💭 Disclaimer
 
@@ -254,5 +252,5 @@ This project is born from enthusiasm rather than professional software developme
 <div align="center">
   Built with enthusiasm by <a href="https://github.com/itsbariscan">Baris Can Sayin</a>
   <br>
-  Star ⭐ this repo if you find it useful!
+  Star ⭐ this repo if you find it useful, happy hacking!
 </div>
