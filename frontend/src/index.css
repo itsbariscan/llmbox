@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-600;
+}
+
+/* Basic text colors */
+.prose {
+  @apply text-gray-800 dark:text-gray-200;
+}
+
+/* Message transitions */
+.message-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.message-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* Code block styling */
+.prose pre {
+  @apply p-0 my-4 overflow-hidden rounded-xl bg-gray-900 dark:bg-gray-800;
+}
+
+.prose code {
+  @apply font-mono text-sm;
+}
+
+/* Inline code */
+.prose :not(pre) > code {
+  @apply px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 
+         text-gray-800 dark:text-gray-200 text-sm font-mono;
+}
+
+/* Links in markdown */
+.prose a {
+  @apply text-primary-600 dark:text-primary-400 hover:text-primary-700 
+         dark:hover:text-primary-300 no-underline;
+}
+
+/* User message styles */
+.prose-invert {
+  @apply text-white;
+}
+
+/* Input/Textarea styling */
+textarea::placeholder {
+  @apply text-gray-500 dark:text-gray-400;
+}
+
+/* Custom animation for new messages */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.2s ease-out forwards;
+}
+
+.smooth-transition {
+  @apply duration-200 ease-in-out;
+}
